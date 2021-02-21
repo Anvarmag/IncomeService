@@ -1,5 +1,7 @@
 public class IncomeService {
-    public static void main(String[] args) {
-
+    int calculate(int sum) {
+    int percent = 3;
+    int income = sum * percent / 100;
+    return income;
     }
 }
